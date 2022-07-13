@@ -65,7 +65,7 @@ body {
 /* ===============/HEADER================= */
 /* ==============HERO==================== */
 .hero {
-  background: #2f303a;
+  background: var(--secondary-bg-color);
 }
 .hero-title {
   font-family: var(--primary-font);
@@ -75,7 +75,7 @@ body {
   /* or 136% */
 
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--primary-bg-color);
 }
 .hero-button {
   font-family: var(--primary-font);
@@ -86,7 +86,7 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--primary-bg-color);
 }
 
 /* ==================/HERO================= */
@@ -112,7 +112,7 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--primary-text-color);
 }
 /* ===================/FEATURES================= */
 /* ================ACTIVITY================= */
@@ -227,10 +227,10 @@ body {
   color: var(--accent-color);
 }
 .footer {
-  background: #2f303a;
+  background: var(--secondary-bg-color);
 }
 .light-logo {
-  color: #ffffff;
+  color: var(--primary-bg-color);
 }
 .footer-link {
   font-family: var(--primary-font);
@@ -241,7 +241,7 @@ body {
   /* or 171% */
 
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--primary-bg-color);
 }
 .footer-item {
   font-family: var(--primary-font);
