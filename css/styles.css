@@ -261,4 +261,5 @@ body {
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
-/* ====================/FOOTER================ */
+  /* ====================/FOOTER================ */
+}
