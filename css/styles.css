@@ -3,6 +3,8 @@
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
   --primary-text-color: #757575;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
 }
 ul {
   list-style: none;
@@ -62,7 +64,9 @@ body {
 }
 /* ===============/HEADER================= */
 /* ==============HERO==================== */
-
+.hero {
+  background: #2f303a;
+}
 .hero-title {
   font-family: var(--primary-font);
   font-weight: 900;
@@ -71,7 +75,7 @@ body {
   /* or 136% */
 
   letter-spacing: 0.06em;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 .hero-button {
   font-family: var(--primary-font);
@@ -84,6 +88,7 @@ body {
   background-color: var(--accent-color);
   color: #ffffff;
 }
+
 /* ==================/HERO================= */
 
 /* ===================FEATURES============= */
@@ -95,8 +100,19 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #212121;
+}
+.features-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
 /* ===================/FEATURES================= */
 /* ================ACTIVITY================= */
@@ -150,7 +166,53 @@ body {
 
   color: var(--primary-text-color);
 }
-/* ====================TEAM==================== */
+/* ====================/TEAM==================== */
+/* =============PORTFOLIO======================= */
+.button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  background: #f5f4fa;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.work-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.work-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* ================/PORTFOLIO================== */
 /* ==================FOOTER==================== */
 .footer-theme-dark {
   font-family: var(--secondary-font);
@@ -165,7 +227,7 @@ body {
   color: var(--accent-color);
 }
 .footer {
-  background: #060606;
+  background: #2f303a;
 }
 .light-logo {
   color: #ffffff;
