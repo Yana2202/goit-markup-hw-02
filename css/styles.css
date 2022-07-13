@@ -43,6 +43,9 @@ body {
 
   color: #212121;
 }
+.current {
+  color: #2196f3;
+}
 
 .contact-link {
   font-family: var(--primary-font);
