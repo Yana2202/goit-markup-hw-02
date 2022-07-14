@@ -28,7 +28,7 @@ a {
 body {
   font-family: var(--primary-font);
   font-size: 14px;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 /* ==================HEADER=============== */
 
@@ -54,7 +54,7 @@ body {
   color: var(--tertiary-font);
 }
 .current {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .contact-link {
@@ -75,7 +75,7 @@ body {
 }
 /* ===============/HEADER================= */
 /* ==============HERO==================== */
-.hero {
+section.hero {
   background: var(--secondary-bg-color);
 }
 .hero-title {
@@ -100,12 +100,17 @@ body {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
 }
+.hero-button:hover {
+  background-color: #188ce8;
+  color: #ffffff;
+}
 
 /* ==================/HERO================= */
 
 /* ===================FEATURES============= */
 .features-title {
   font-family: var(--primary-font);
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -189,6 +194,7 @@ body {
   background-color: #2196f3;
 }
 button.current {
+  color: #ffffff;
   background: #2196f3;
 }
 .work-name {
@@ -232,6 +238,7 @@ button.current {
 }
 .footer-link {
   font-family: var(--primary-font);
+  font-style: normal;
   font-weight: 400;
   line-height: 1.7;
   /* or 171% */
@@ -241,6 +248,7 @@ button.current {
 }
 .footer-address {
   color: rgba(255, 255, 255, 1);
+  font-style: normal;
 }
 .footer-item {
   font-family: var(--primary-font);
