@@ -75,8 +75,9 @@ body {
 }
 /* ===============/HEADER================= */
 /* ==============HERO==================== */
-section.hero {
+.hero {
   background: var(--secondary-bg-color);
+  max-width: 1600px;
 }
 .hero-title {
   font-family: var(--primary-font);
