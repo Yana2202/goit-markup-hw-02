@@ -89,7 +89,6 @@ body {
 
   letter-spacing: 0.06em;
   color: var(--primary-bg-color);
-  background-color: #188ce8;
 }
 .hero-button {
   font-family: var(--primary-font);
